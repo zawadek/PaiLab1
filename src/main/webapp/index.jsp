@@ -1,4 +1,4 @@
-<%@page contentType="text/html" pageEncoding="Utf-8"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -7,7 +7,11 @@
     </head>
     <body>
         <div>
-            <h1>Hello world!</h1>
+            <h3>Pracownicy</h3>
+            <p>
+            <a href="addForm">Dodaj pracownika</a><br />
+            <a href="viewAll">Pokaż listę pracowników</a>
+            </p>
         </div>
     </body>
 </html>
